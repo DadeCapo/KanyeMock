@@ -1,0 +1,219 @@
+.main{
+  background-image: url("kanyewest.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+}
+.nav-bar{
+  background: #f6e7fe;
+/* display: inline-block; */
+  position: absolute;
+  right: 0;
+  width:2.5em;
+  height:98.5vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+/* border: 1px solid blue; */
+  padding-top: 1em;
+}
+/* padding on all icons that start with i. items nav menu*/
+.nav-bar i {
+  padding-bottom: .80em;
+/* border: 1px solid red; */
+}
+/* these are the nav icons changing the colors */
+.profile-pic{
+  background-image: url("simon.jpeg");
+  background-size: contain;
+  height: 100%;
+  width: 75%;
+/* border: 1px solid red; */
+  margin-top: 10px;
+  margin-bottom: 10px;
+  background-repeat: no-repeat;
+}
+i.fas.fa-search{
+  color: #bf79e3;
+}
+i.fas.fa-envelope{
+  color: #7B0099;
+}
+i.far.fa-newspaper{
+  color: #3d10d6;
+}
+i.fas.fa-chart-line{
+  color: #2892b8;
+}
+i.fas.fa-basketball-ball{
+  color: #d98035;
+}
+i.fas.fa-film{
+  color: #b434da;
+}
+i.fas.fa-star{
+  color: #dd468a;
+}
+i.fas.fa-info{
+  color: #6020af;
+}
+i.fas.fa-car{
+  color: #a018b2;
+}
+i.fas.fa-shopping-bag{
+  color: #d98035;
+}
+i.fas.fa-plane{
+  color: #2cbcd3;
+}
+i.fas.fa-heart{
+  color: #ce0f1f;
+}
+i.fas.fa-suitcase{
+  color: #7578f5;
+}
+i.fas.fa-cog{
+  color: #dfa7fb;
+/* border: 1px solid red; */
+  margin-bottom: 5px;
+}
+/* this is padding the settings item to the bottom of the page */
+.settings{
+  padding-top: 19em;
+  padding-bottom: .5em;
+/* border: 1px solid green; */
+}
+/* end of the nav icons here */
+
+/* start of latest news and everything inside it */
+
+.latest-news{
+/*display: flex;
+  flex-direction: column-column-reverse;
+  justify-content: flex-end; */
+  background-color: white;
+  color: #7B0099;
+  position:absolute;
+  right: 2em;
+  height: 100vh;
+  margin-right: 0.5em;
+  width: 25%;
+/* border: 1px solid red; */
+}
+.news-title{
+/* border: 1px solid red; */
+  font-size: .75em;
+  display: flex;
+  justify-content: flex-start;
+  padding-left: 2em;
+  padding-bottom: 5em;
+  padding-top: 1.5em;
+  font-weight: bold;
+
+}
+.first-article{
+  padding-left: 1em;
+  padding-right: 1em;
+  font-size: 1.50em;
+  font-weight: bold;
+/* border: 1px solid red; */
+}
+li{
+  font-weight: bold;
+/* border: 1px solid red; */
+  font-size: .7em;
+  margin-right: 10%;
+}
+.first-article-news-source{
+  padding-left: 2.5em;
+  font-size: .66em;
+  color: #d892fc;
+  padding-bottom: 4em;
+
+}
+.news-source{
+/* border: 1px solid red; */
+  font-size: .66em;
+  padding-bottom: 1em;
+  color: #d892fc;
+}
+/*this is the end of latest news full div  */
+
+/* widgets start here first one just for the container no style  */
+.widgets{
+  width: 43%;
+  left: 0;
+  height:90%;
+  margin: 0;
+  /* border: 1px solid red; */
+  display: flex;
+  justify-content: center;
+}
+/* end of container widget */
+
+.widgets{
+  display: flex;
+  flex-direction: column;
+}
+.weather-widget{
+  height: 7.9%;
+  width: 100%;
+/* border: 1px solid purple; */
+  background-image: url("weather.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.search-widget{
+  height: 7.9%;
+  width: 100%;
+/* border: 1px solid purple; */
+  background-image: url("search widget.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.APPL-widget{
+  height: 7.9%;
+  width: 110%;
+/* border: 1px solid purple; */
+  background-image: url("APPl stock.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.YHOO-widget{
+  height: 7.9%;
+  width: 100%;
+/* border: 1px solid purple; */
+  background-image: url("yhoo stock.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.alert1{
+  height: 7.9%;
+  width: 100%;
+/* border: 1px solid purple; */
+  background-image: url("soccer.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.alert2{
+  height: 7.9%;
+  width: 100%;
+/* border: 1px solid purple; */
+  background-image: url("pharmacy.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.ad{
+  /* margin-right: 80%; */
+  height: 11%;
+  width: 100%;
+/* border: 1px solid purple; */
+  background-image: url("ad.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  margin-top: 10em;
+}
