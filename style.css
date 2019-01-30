@@ -138,8 +138,11 @@ li{
 .news-source{
 /* border: 1px solid red; */
   font-size: .66em;
-  padding-bottom: 1em;
+  /* padding-bottom: 1em; */
   color: #d892fc;
+  line-height: .02em;
+  list-style: none
+
 }
 /*this is the end of latest news full div  */
 
